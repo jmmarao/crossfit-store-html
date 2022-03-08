@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fit Crossfit Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- Page header -->
+    <header>
+
+        <!-- Logo -->
+        <h1 class="title is-1 has-text-black"><img src="./img/logo.png" alt="Logo da empresa">
+            Fit Crossfit | São Carlos
+        </h1>
+
+        <!-- Horizontal menu -->
+        <nav class="navbar is-dark" aria-label="main navigation">
+            <a class="navbar-item has-text-black has-text-weight-bold" href="index.html">
+                Início
+            </a>
+            <a class="navbar-item has-text-black has-text-weight-bold" href="store.html">
+                Loja
+            </a>
+            <a class="navbar-item has-text-black has-text-weight-bold" href="contact.html">
+                Contato
+            </a>
+        </nav>
+
+        <!-- Cover -->
+        <img src="./img/cover.jpg" alt="Capa da página web exibindo diversas barras alinhadas no chão">
+    </header>
+
+    <!-- Page body -->
+    <main>
+        <div class="columns">
+
+            <!-- Empty column -->
+            <div class="column is-one-quarter">
+            </div>
+
+            <!-- Main body -->
+            <section id="mainBodyContact">
+                <div class="column">
+                    <h2 class="title is-2 has-text-black">Fale Conosco</h2>
+                    <form method="POST">
+                        <p>
+                            <label for="userName" class="has-text-black has-text-weight-bold">Nome</label>
+                            <br><input type="text" id="userName" name="userName" placeholder="Nome Completo">
+                        </p>
+
+                        <p>
+                            <label for="userEmail" class="has-text-black has-text-weight-bold">Email</label>
+                            <br><input type="email" id="userEmail" name="userEmail" placeholder="user@mail.com.br">
+                        </p>
+
+                        <p>
+                            <label for="userPhone" class="has-text-black has-text-weight-bold">Telefone</label>
+                            <br><input type="text" id="userPhone" name="userPhone" placeholder="(XX) XXXX-XXXX">
+                        </p>
+
+                        <p>
+                            <label for="userMessage" class="has-text-black has-text-weight-bold">Mensagem</label>
+                            <br><textarea id="userMessage" name="userMessage"
+                                placeholder="Digite sua mensagem..." cols="86" rows="7"></textarea>
+                        </p>
+                    </form>
+                    <br><button class="button is-danger is-normal">Cancelar</button>
+                    <button class="button is-success is-normal">Enviar</button>
+                </div>
+            </section>
+
+            <!-- Empty column -->
+            <div class="column is-one-quarter">
+            </div>
+        </div>
+    </main>
+
+    <!-- Page footer -->
+    <footer>
+        <p>Desenvolvido por João Mateus Marão Domingues | E-mail: joao.mateus@aluno.ifsp.edu.br</p>
+        <ul>
+            <li> <a href="https://www.facebook.com/joao.m.marao/">
+                    <ion-icon name="logo-facebook" class="icon is-medium"></ion-icon>
+                </a></li>
+            <li>
+                <a href="https://github.com/jmmarao">
+                    <ion-icon name="logo-github" class="icon is-medium"></ion-icon>
+                </a>
+            </li>
+            <li><a href="https://www.instagram.com/jmmarao/">
+                    <ion-icon name="logo-instagram" class="icon is-medium"></ion-icon>
+                </a></li>
+            <li>
+                <a href="https://www.linkedin.com/in/jmmarao/">
+                    <ion-icon name="logo-linkedin" class="icon is-medium"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
